@@ -1055,7 +1055,7 @@ class msanZhoneMxK(object):
 class msanNokia(object):
     'Class for Nokia functions defines methods for getting MSAN information'
 
-    def __init__(self, host, slot, port, logging, log_level, username="engenharia", password="#engenharia21\n"):
+    def __init__(self, host, slot, port, logging, log_level, username="username", password="#password\n"):
         self.tn = None
         self.username = username
         self.password = password
@@ -1685,8 +1685,7 @@ class msanHuawei(object):
         return True
 
 class msanNokia7342(object):
-    def __init__(self, host, slot, port, logging, log_level, username="sigres1", password="s1gr3s1@OLT",key_filename="None"):
-    #def __init__(self, host, slot, port, logging, log_level, username="g0041078", password="Lu2ta4!W",key_filename="None"):
+    def __init__(self, host, slot, port, logging, log_level, username="username", password="pass",key_filename="None"):
         self.tn = None
         self.username = username
         self.password = password
